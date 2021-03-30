@@ -1,5 +1,5 @@
 provider "aws" {                      # Cloud Provider::-> AWS
-  region     = "ap-south-1"           # Region where resource will be deployed.
+  region     = "ap-south-1a"           # Region where resource will be deployed.
   access_key = "" # IAM Access Key of the User.
   secret_key = "" # IAM Secret Key of the User.
 }
