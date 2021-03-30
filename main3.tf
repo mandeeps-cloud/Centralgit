@@ -1,5 +1,5 @@
 provider "aws" {
-  region     = "ap-south-1"
+  region     = "ap-south-1b"
   access_key = ""
   secret_key = ""
 }
@@ -25,6 +25,6 @@ resource "aws_instance" "cloudzune" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "HelloWorldb"
   }
 }
