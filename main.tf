@@ -23,7 +23,7 @@ resource "aws_ami" "example" {
 #  name              = "terraform-example-copy"
 #  description       = "A copy of ami-xxxxxxxx"
 #  source_ami_id     = "ami-03244f314f4ce61ac"
-#  source_ami_region = "ap-south-1"
+#  source_ami_region = "ap-south-1a"
 
 #  tags = {
 #    Name = "HelloWorld"
