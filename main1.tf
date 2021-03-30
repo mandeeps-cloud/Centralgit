@@ -1,5 +1,5 @@
 provider "aws" {                      # Cloud Provider::-> AWS
-  region     = "ap-south-1"            # Region where resource will be deployed or ami will be copied to the destination.
+  region     = "ap-south-1a"            # Region where resource will be deployed or ami will be copied to the destination.
   access_key = "" # IAM Access Key of the User.
   secret_key = "" # IAM Secret Key of the User.
 }
@@ -23,7 +23,7 @@ resource "aws_ami_copy" "example" {
   name              = "terraform-example-copy" # Destination ami name in ap-east-1
   description       = "A copy of ami-xxxxxxxx"
   source_ami_id     = "ami-03244f314f4ce61ac" # Source ami id
-  source_ami_region = "ap-south-1"            # Source ami region
+  source_ami_region = "ap-south-1a"            # Source ami region
 
   tags = {
     Name = "HelloWorld" # tags for target ami copy to ap-east-1
