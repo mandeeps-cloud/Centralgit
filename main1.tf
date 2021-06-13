@@ -26,7 +26,7 @@ resource "aws_ami_copy" "example" {
   source_ami_region = "ap-south-1a"            # Source ami region
 
   tags = {
-    Name = "Mandeep" # tags for target ami copy to ap-east-1
+    Name = "Mandeep Singh" # tags for target ami copy to ap-east-1
   }
 }
 
