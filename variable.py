@@ -1,8 +1,8 @@
 # a_122 = '''harry'''
 #_a = 'Mandeep'
-a = "Mandeep"
-b = 345
-c = 45.32
+a = "Mandeep Singh"
+b = 540
+c = 95.32
 d = True
 # d = None
 
